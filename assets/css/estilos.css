@@ -2,6 +2,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+*{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 /* Hero Section */
 
 #Hero-Section {
@@ -18,6 +22,51 @@ body {
   width: 300px;
   
 }
+
+.mb-5 .btn-outline-info {
+
+border-top-color : white!important;
+border-bottom-color : white!important;
+border-left-color : white!important;
+border-right-color : white!important;
+/* -webkit-tap-highlight-color: #00a887!important; */
+}
+.mb-5 .btn-outline-info:hover{
+  background-color: #00a887 !important;
+}
+.mb-5 .btn-info{
+  background : #00a887!important;
+  border : #00a887!important;
+}
+
+#Actividades .btn-outline-info {
+
+border-top-color : #00a887!important;
+border-bottom-color : #00a887!important;
+border-left-color : #00a887!important;
+border-right-color : #00a887!important;
+color: #00a887 !important;
+/* -webkit-tap-highlight-color: #00a887!important; */
+}
+#Actividades .btn-outline-info:hover{
+  background-color: #00a887 !important;
+  color: white !important;
+}
+#Contacto .btn-info {
+
+border-top-color : white!important;
+border-bottom-color : white!important;
+border-left-color : white!important;
+border-right-color : white!important;
+background-color: white !important;
+color: #00a887 !important;
+/* -webkit-tap-highlight-color: #00a887!important; */
+}
+/* #Contacto .btn-outlineinfo:hover{
+  background-color: #00a887 !important;
+  color: white !important;
+} */
+
 #Actividades h2 {
   color: #00a887 !important;
 }
@@ -62,6 +111,9 @@ body{
   color: white !important;
 }
 
+.form-control{
+  color: #00a887 !important;
+}
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
@@ -71,4 +123,10 @@ body{
     width: 100px;
   }
 
+}
+
+.bg-dark{
+  background-color: white !important;
+  color: #00a887 !important;
+  font-weight: bolder !important;
 }
