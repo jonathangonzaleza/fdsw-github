@@ -11,9 +11,19 @@ body {
   background-position: left;
 }
 
+.navbar{
+  background-color: white !important;
+}
 .navbar-brand img {
   width: 300px;
   
+}
+#Actividades h2 {
+  color: #00a887 !important;
+}
+
+.card-body h5{
+  color: #00a887 !important;
 }
 
 .nav-item  a{
@@ -34,12 +44,22 @@ body{
   background-position: center;
 }
 
+#Acerca-de-la-isla{
+  color: white !important;
+}
 /* Contacto */
 
 #Contacto form label {
   font-weight: 700;
   /* color: #373a3c; */
-  color: #00a887;
+  color: #00a887 ;
+}
+
+#Contacto .display-4 {
+  color: white !important;
+}
+#Contacto .text-center {
+  color: white !important;
 }
 
 @media (max-width: 768px) {
