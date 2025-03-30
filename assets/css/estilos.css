@@ -11,6 +11,20 @@ body {
   background-position: left;
 }
 
+.navbar-brand img {
+  width: 300px;
+  
+}
+
+.nav-item  a{
+  color: #00a887 !important;
+  font-weight: bold;
+}
+
+body{
+  background-color: #00a887 !important;
+}
+
 /* Mis trabajos */
 
 #Actividades .image-top {
@@ -24,7 +38,8 @@ body {
 
 #Contacto form label {
   font-weight: 700;
-  color: #373a3c;
+  /* color: #373a3c; */
+  color: #00a887;
 }
 
 @media (max-width: 768px) {
